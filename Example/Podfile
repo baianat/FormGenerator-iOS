@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '12.1'
+
+target 'FormGenerator_Example' do
+  pod 'FormGenerator', :path => '../'
+  pod 'MediaViewer', :git => 'https://bitbucket.org/baianat/mediaviewer-ios.git'
+  pod 'Vanguard', :git => 'https://bitbucket.org/baianat/vanguard-ios.git'
+  
+  target 'FormGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

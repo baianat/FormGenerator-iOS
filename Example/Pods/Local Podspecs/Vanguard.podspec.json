@@ -1,0 +1,25 @@
+{
+  "name": "Vanguard",
+  "version": "0.1.0",
+  "summary": "Vanguard is a validation tool for forms in Swift",
+  "description": "Vanguard is a validation tool for forms in Swift with a lot of customization and options",
+  "homepage": "https://bitbucket.org/baianat/vanguard-ios.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Baianat": "development@baianat.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/baianat/vanguard-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Vanguard/Classes/**/*",
+  "resources": "Vanguard/Assets/**/*",
+  "swift_version": "5.0"
+}

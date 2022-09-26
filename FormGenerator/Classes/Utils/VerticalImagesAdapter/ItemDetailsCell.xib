@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="KGk-i7-Jjw" customClass="ItemDetailsCell" customModule="AuthenticationModule" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VEf-OZ-vxe">
+                        <rect key="frame" x="8" y="4" width="304" height="40"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5vD-xV-Qoq">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5vD-xV-Qoq" secondAttribute="height" id="QnV-mA-hHN"/>
+                                    <constraint firstAttribute="height" constant="40" id="XL8-0r-tPE"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="sdfsdfasfojbefbeurbfhjebfhjsdfijhhsadijfhasdfhujsbadfhbsdhfbhsdfjbhjadfadfadf" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hp-oq-bzl" customClass="RegularLabelPrimary" customModule="AbjadUtils">
+                                <rect key="frame" x="48" y="0.0" width="208" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="252" translatesAutoresizingMaskIntoConstraints="NO" id="VCU-fc-ht4">
+                                <rect key="frame" x="264" y="0.0" width="40" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconCloseAttachment" translatesAutoresizingMaskIntoConstraints="NO" id="thR-J7-qrX">
+                                        <rect key="frame" x="4" y="4" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="GkW-5c-tH3"/>
+                                            <constraint firstAttribute="width" secondItem="thR-J7-qrX" secondAttribute="height" id="kQi-pF-RW3"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="thR-J7-qrX" firstAttribute="centerY" secondItem="VCU-fc-ht4" secondAttribute="centerY" id="7lW-PZ-UeD"/>
+                                    <constraint firstItem="thR-J7-qrX" firstAttribute="leading" secondItem="VCU-fc-ht4" secondAttribute="leading" constant="4" id="7qC-vb-xYq"/>
+                                    <constraint firstItem="thR-J7-qrX" firstAttribute="centerX" secondItem="VCU-fc-ht4" secondAttribute="centerX" id="njs-BO-9ja"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="VEf-OZ-vxe" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="3xt-8G-bOo"/>
+                    <constraint firstItem="VEf-OZ-vxe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="48m-e4-f9C"/>
+                    <constraint firstItem="VEf-OZ-vxe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="THs-Tg-Gkc"/>
+                    <constraint firstItem="VEf-OZ-vxe" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="dAF-4Z-LMt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="nameLabel" destination="2hp-oq-bzl" id="Jqf-co-jSW"/>
+                <outlet property="removeButton" destination="VCU-fc-ht4" id="F4H-c2-rzT"/>
+                <outlet property="selectedImageView" destination="5vD-xV-Qoq" id="096-JS-d8v"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="138.28125"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="2hp-oq-bzl">
+            <size key="intrinsicContentSize" width="609.5" height="20.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="IconCloseAttachment" width="21" height="21"/>
+    </resources>
+</document>

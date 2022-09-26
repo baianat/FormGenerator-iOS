@@ -1,0 +1,30 @@
+{
+  "name": "MediaViewer",
+  "version": "0.1.1",
+  "summary": "MediaViewer is used to open pdf documents and images.",
+  "description": "'MediaViewer is used to open pdf documents and images, supports download.'",
+  "homepage": "https://bitbucket.org/baianat/mediaviewer-ios.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "O-labib": "labib@baianat.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/baianat/mediaviewer-ios.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "MediaViewer/Classes/**/*",
+  "resources": "MediaViewer/Assets/**/*",
+  "dependencies": {
+    "Nuke": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

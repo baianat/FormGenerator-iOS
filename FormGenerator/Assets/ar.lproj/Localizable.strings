@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  FormGenerator
+
+  Created by Ahmed Tarek on 29/03/2021.
+  
+*/
+
+"images" = "صور";
+"files" = "ملفات";
+"cancel" = "إلغاء";
+"fileSizeCantExceed" = "لا يمكن أن يتعدى حجم الملف";
+"megaByte" = "ميجا بايت";
+"invalidMedia" = "ميديا غير صالحة";
+"selectedFilesCantBeMoreThan" = "لا يمكن أن تكون الملفات المختارة أكثر من";
+"veryWeak" = "ضعيف جدا";
+"weak" = "ضعيف";
+"fair" = "مقبول";
+"strong" = "قوى";
+"veryStrong" = "قوىٌ جداً";
+"bothPasswordsMustBeTheSame" = "كلمتي السر يجب أن يتطابقا";
+"youCantPickMoreThan" = "لا يمكنك اختيار أكثر من";
+"itemsSmall" = "عناصر";
+"imagesSmall" = "صور";
+"filesSmall" = "ملفات";
+"open" = "فتح";
+"remove" = "حذف";
+"numberOfItemsCannotBeMoreThan" = "عدد العناصر لا يمكن أن يكون أكثر";
+"numberOfItemsCannotBeLessThan" = "عدد العناصر لا يمكن أن يكون أقل";
+"nameMustNotBeEmpty" = "لا يمكن ترك الاسم خالياً";
+"nameMustNotBeLessThan2Characters" = "يجب أن يحتوى الاسم ما لا يقل عن حرفين";
+"nameMustNotContainSpecialCharacters" = "يجب زلا يحتوي الاسم حروف مميزة";
+"emailIsNotValid" = "البريد الإلكتروني غير صالح";
+"phoneNumberIsNotValid" = "رقم الهاتف غير صالح";
+"youMustSelectValue" = "يجب زن تختار عنصر";
+"pleaseEnterStrongPassword" = "من فضلك أدخل كلمة سر أكثر أماناً";
+"youMustSelectDate" = "يجب اختيار تاريخ";
+"youMustSelectItem" = "يجب اختيار عنصر";
+"alert" = "تنبيه";
+"ok" = "حسناً";
+"preview" = "عرض";
+"change" = "تغيير";
+"add" = "إضافة";
+"youCannotSelectTheSameValueTwice" = "لا يمكن اختيار نفس عنصر مرتين";
+"thereAreNoValuesToSelectFrom" = "لا يوجد أي عناصر للإختيار منها";
+"youMustSelectCountry" = "يجب اختيار الدولة";
+
+"fieldCantBeEmpty" = "لا يمكن آن يكون هذا الحقل فارغا";

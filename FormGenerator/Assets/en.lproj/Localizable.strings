@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  FormGenerator
+
+  Created by Ahmed Tarek on 29/03/2021.
+  
+*/
+
+"images" = "Images";
+"files" = "Files";
+"cancel" = "Cancel";
+"fileSizeCantExceed" = "File size can't exceed";
+"megaByte" = "MB";
+"invalidMedia" = "Invalid Media";
+"selectedFilesCantBeMoreThan" = "Selected files can't be more than";
+"veryWeak" = "Very Weak";
+"weak" = "Weak";
+"fair" = "Fair";
+"strong" = "Strong";
+"veryStrong" = "Very Strong";
+"bothPasswordsMustBeTheSame" = "Both passwords must be the same";
+"youCantPickMoreThan" = "You can't pick more than";
+"itemsSmall" = "items";
+"imagesSmall" = "images";
+"filesSmall" = "files";
+"open" = "Open";
+"remove" = "Remove";
+"numberOfItemsCannotBeMoreThan" = "Number of items cannot be more than";
+"numberOfItemsCannotBeLessThan" = "Number of items cannot be less than";
+"nameMustNotBeEmpty" = "Name must not be empty";
+"nameMustNotBeLessThan2Characters" = "Name must not be less than 2 characters";
+"nameMustNotContainSpecialCharacters" = "Name must not contain special characters";
+"emailIsNotValid" = "Email is not valid";
+"phoneNumberIsNotValid" = "Phone number is not valid";
+"youMustSelectValue" = "You must select a value";
+"pleaseEnterStrongPassword" = "Please Enter a strong password";
+"youMustSelectDate" = "You must select a date";
+"youMustSelectItem" = "You must select an item";
+"alert" = "Alert";
+"ok" = "Ok";
+"preview" = "Preview";
+"change" = "Change";
+"add" = "Add";
+"youCannotSelectTheSameValueTwice" = "You cannot select the same value twice";
+"thereAreNoValuesToSelectFrom" = "There are no values to select from";
+"youMustSelectCountry" = "You must select a country";
+
+"fieldCantBeEmpty" = "Field can not be empty";
