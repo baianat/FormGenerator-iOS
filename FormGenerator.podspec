@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   Form Generator is a tool for building forms easily in Swift with variety of custom components.
                        DESC
 
-  s.homepage         = 'https://bitbucket.org/baianat/formgenerator-ios.git'
+  s.homepage         = 'https://github.com/baianat/FormGenerator-iOS.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Baianat' => 'development@baianat.com' }
