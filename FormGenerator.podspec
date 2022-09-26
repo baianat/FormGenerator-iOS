@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FormGenerator'
-  s.version          = '0.3.0'
+  s.version          = '1.0.0'
   s.summary          = 'Form Generator is a tool for building forms easily in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Baianat' => 'development@baianat.com' }
-  s.source           = { :git => 'https://bitbucket.org/baianat/formgenerator-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/baianat/FormGenerator-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.1'
